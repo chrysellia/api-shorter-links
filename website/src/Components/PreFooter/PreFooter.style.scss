@@ -1,0 +1,35 @@
+.prefooter-component {
+    padding-top: 6rem;
+
+    .prefooter-wrapper {
+        background-color: hsl(257, 27%, 26%);
+
+        .prefooter-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 25px;
+            font-weight: 700;
+            padding-top: 3rem;
+        }
+
+        .prefooter-button {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .button-text {
+                background-color: hsl(180, 66%, 49%);
+                border-radius: 3rem;
+                padding: 0.8rem 0.8rem;
+                width: 122px;
+                color: white;
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+    }
+}
