@@ -1,0 +1,50 @@
+.navbar-component {
+    .navbar-wrapper {
+        padding: 2rem 6rem;
+
+        .navbar-content {
+            display: flex;
+            align-items: center;
+            justify-self: center;
+
+            .navbar-logo {
+                padding-right: 2rem;
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            .navbar-menu {
+                display: flex;
+                flex: auto;
+
+                .menu-item {
+                    padding-right: 2rem;
+                    color: hsl(257, 7%, 63%);
+                    font-weight: 700;
+                    font-size: 15px;
+                }
+            }
+
+            .navbar-authentification {
+                display: flex;
+                align-items: center;
+                justify-self: center;
+
+                .navbar-login {
+                    padding-right: 2rem;
+                    color: hsl(257, 7%, 63%);
+                    font-weight: 700;
+                    font-size: 15px;
+                }
+
+                .navbar-signup {
+                    background-color: hsl(180, 66%, 49%);
+                    border-radius: 3rem;
+                    padding: 0.5rem 2rem;
+                    color: white;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
