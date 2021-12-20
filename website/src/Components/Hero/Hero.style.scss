@@ -1,0 +1,41 @@
+.hero-component {
+    .hero-wrapper {
+        display: flex;
+        
+        .hero-content {
+            flex: auto;
+            padding-left: 6rem;
+            padding-top: 4rem;
+
+            .main-content {
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 1;
+            }
+
+            .content-description {
+                color: hsl(0, 0%, 75%);
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .content-button {
+                .button-text {
+                    background-color: hsl(180, 66%, 49%);
+                    border-radius: 3rem;
+                    padding: 0.8rem 0.8rem;
+                    width: 122px;
+                    color: white;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .hero-image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
