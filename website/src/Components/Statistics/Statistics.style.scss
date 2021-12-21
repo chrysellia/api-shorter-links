@@ -1,7 +1,9 @@
 .statistics-component {
+    margin-top: -14.5%;
+    
     .statistics-wrapper {
-        padding: 2rem 6rem;
-        // background-color: hsl(0, 0%, 75%);
+        padding: 6rem 6rem;
+        background-color: hsl(0, 0%, 75%);
 
         .statistics-title {
             color: hsl(260, 8%, 14%);
@@ -18,13 +20,13 @@
         }
 
         .card-wrapper {
-            padding-top: 5rem;
+            padding-top: 3rem;
+            padding-bottom: 6rem;
             display: flex;
 
             .statistics-card {
-                margin-right: 2rem;
+                position: absolute;
                 background-color: white;
-                border: 1px solid black;
                 border-radius: 0.8rem;
                 padding: 2rem 2rem;
                 position: relative;
@@ -50,20 +52,22 @@
 
                 .card-description {
                     color: hsl(257, 7%, 63%);
-                    font-weight: 500;
-                    font-size: 18px;
+                    font-weight: 400;
+                    font-size: 16px; 
                 }
             }
 
             .bound-line {
-                border-right: 3px hsl(180, 66%, 49%);
+                position: relative;
+                border-bottom: 0.5rem solid #2acfcf;
+                width: 64px;
+                top: -158px;
+                left: 0;
             }
 
             .card-two {
                 top: 35px;
-                margin-right: 2rem;
                 background-color: white;
-                border: 1px solid black;
                 border-radius: 0.8rem;
                 padding: 2rem 2rem;
                 position: relative;
@@ -89,17 +93,23 @@
 
                 .card-description {
                     color: hsl(257, 7%, 63%);
-                    font-weight: 500;
-                    font-size: 18px;
+                    font-weight: 400;
+                    font-size: 16px;
                 }
+            }
+
+            .bound-line {
+                position: relative;
+                border-bottom: 0.5rem solid #2acfcf;
+                width: 50px;
+                top: -158px;
+                left: 0;
             }
 
             .card-three {
                 top: 70px;
-                margin-right: 2rem;
                 background-color: white;
                 border-radius: 0.8rem;
-                border: 1px solid black;
                 padding: 2rem 2rem;
                 position: relative;
 
@@ -124,8 +134,8 @@
 
                 .card-description {
                     color: hsl(257, 7%, 63%);
-                    font-weight: 500;
-                    font-size: 18px;
+                    font-weight: 400;
+                    font-size: 16px;
                 }
             }
         }

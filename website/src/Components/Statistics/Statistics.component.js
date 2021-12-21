@@ -41,6 +41,7 @@ const Statistics = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="bound-line"></div>
 
                     <div className="card-three">
                         <div className="card-icon">
@@ -49,7 +50,7 @@ const Statistics = () => {
                         <div className="card-title">Fully Customizable</div>
                         <div className="card-description">
                             <p>
-                                Improve brand awareness and content <br/>
+                                Improve brand awareness and <br/> content 
                                  discoverability through <br/> customizable links, supercharging <br/>
                                 audience engagement.
                             </p>
