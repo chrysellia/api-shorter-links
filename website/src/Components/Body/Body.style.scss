@@ -28,6 +28,11 @@
                     color: white;
                     text-align: center;
                     font-weight: 700;
+
+                    &:hover {
+                        background-color: hsl(179, 56.3, 74.9);
+                        cursor: pointer;
+                    }
                 }
             }
         }

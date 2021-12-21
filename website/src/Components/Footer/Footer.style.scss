@@ -26,6 +26,13 @@
                         font-weight: 700;
                         font-size: 15px;
                     }
+
+                    .menu-item {
+                        &:hover {
+                            color: hsl(180, 66%, 49%);
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
 
@@ -35,6 +42,13 @@
 
                 .media-item {
                     padding-right: 2rem;
+
+                    .media-icon {
+                        &:hover path {
+                            fill: hsl(180, 66%, 49%);
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }
