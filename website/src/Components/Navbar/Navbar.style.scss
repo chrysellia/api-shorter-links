@@ -50,6 +50,93 @@
                     }
                 }
             }
+
+            .navbar-hamburger {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-component {
+        .navbar-wrapper {
+            padding: 1rem 2rem;
+    
+            .navbar-content {
+                display: flex;
+                align-items: center;
+                justify-self: center;
+    
+                .navbar-logo {
+                    padding-right: 2rem;
+                    font-weight: 700;
+                    font-size: 30px;
+                    flex: auto;
+                }
+    
+                .navbar-menu {
+                    display: none; 
+                }
+    
+                .navbar-authentification {
+                    display: none;
+                }
+
+                .navbar-hamburger {
+                    display: block;
+
+                    .toggle-menu {
+                        position: absolute;
+                        top: 85px;
+                        left: 156px;
+                        background-color: hsl(257, 27%, 26%);
+                        padding: 2rem 2rem;
+                        text-align: center;
+                        color: white;
+                        font-weight: 600;
+                        border-radius: 1rem;
+
+                        &.show {
+                            transform: scale(1);
+                            transition: all ease-in 300ms;
+                            transform-origin: top;
+                        }
+
+                        &.hide {
+                            transform: scale(1, 0);
+                            transition: all ease-out 300ms;
+                            transform-origin: top;
+                        }
+
+                        .hamburger-bloc {
+
+                            .hamburger-item {
+                                padding-bottom: 1rem;
+                            }
+                        }
+
+                        .divide-line {
+                            border-bottom: 1px solid white;
+                        }
+
+                        .hamburger-authentification {
+                            padding-top: 1rem;
+
+                            .hamburger-login {
+                                padding-bottom: 1rem;
+                            }
+
+                            .hamburger-signup {
+                                background-color: hsl(180, 66%, 49%);
+                                border-radius: 3rem;
+                                padding: 0.5rem 2rem;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

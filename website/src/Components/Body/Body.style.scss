@@ -38,3 +38,48 @@
         }
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .body-component {
+        padding: 1rem 1rem;
+        position: relative;
+        
+        .body-wrapper {
+            padding: 1rem 2rem;
+            background-color: hsl(257, 27%, 26%);
+    
+            .body-input {
+                display: flex;
+                flex-direction: column;
+    
+                .input-content {
+                    border-radius: 0.5rem;
+                    // padding: 0.4rem 0.6rem;
+                    color: hsl(257, 7%, 63%);
+                    font-size: 18px;
+                    font-weight: 500;
+                    width: 100%;
+                }
+    
+                .input-button {
+                    padding-top: 0.5rem;
+
+                    .button-content {
+                        background-color: hsl(180, 66%, 49%);
+                        border-radius: 0.5rem;
+                        // padding: 0.8rem 0.8rem;
+                        width: 100%;
+                        color: white;
+                        text-align: center;
+                        font-weight: 700;
+    
+                        &:hover {
+                            background-color: hsl(179, 56.3, 74.9);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
