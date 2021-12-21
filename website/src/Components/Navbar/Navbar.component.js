@@ -32,19 +32,20 @@ const Navbar = () => {
                         <div className="navbar-login">Login</div>
                         <div className="navbar-signup">Sign Up</div>
                     </div>
-                    <div className="navbar-hamburger" onClick={() => toggleShow(true)}>
-                        <GiHamburgerMenu/>
-                        <div ref={menuRef}  className={`toggle-menu" ${ show ? 'show' : 'hide'}`}>
-                            <div className="hamburger-bloc">
+                    
+                    <div className="navbar-mobile">
+                        <div className="navbar-hamburger" onClick={() => toggleShow(true)}>
+                            <GiHamburgerMenu/>
+                        </div>
+                        <div className="toggle-menu">
+                            <div ref={menuRef} className={`hamburger-bloc" ${ show ? 'show' : 'hide'}`}>
                                 <div className="hamburger-item">Features</div>
                                 <div className="hamburger-item">Pricing</div>
                                 <div className="hamburger-item">Resources</div>
                             </div>
                             <div className="divide-line"></div>
-                            <div className="hamburger-authentification">
-                                <div className="hamburger-login">Login</div>
-                                <div className="hamburger-signup">Sign Up</div>
-                            </div>
+                            <div className="hamburger-login">Login</div>
+                            <div className="hamburger-signup">Sign Up</div>
                         </div>
                     </div>
                 </div>

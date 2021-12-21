@@ -51,7 +51,7 @@
                 }
             }
 
-            .navbar-hamburger {
+            .navbar-mobile {
                 display: none;
             }
         }
@@ -83,56 +83,59 @@
                     display: none;
                 }
 
-                .navbar-hamburger {
+                .navbar-mobile {
                     display: block;
+
+                    .navbar-hamburger {
+                        display: block;
+                    }
 
                     .toggle-menu {
                         position: absolute;
                         top: 85px;
-                        left: 156px;
-                        background-color: hsl(257, 27%, 26%);
+                        left: 23px;
+                        background-color: #3b3054;
                         padding: 2rem 2rem;
                         text-align: center;
                         color: white;
                         font-weight: 600;
                         border-radius: 1rem;
-
-                        &.show {
-                            transform: scale(1);
-                            transition: all ease-in 300ms;
-                            transform-origin: top;
-                        }
-
-                        &.hide {
-                            transform: scale(1, 0);
-                            transition: all ease-out 300ms;
-                            transform-origin: top;
-                        }
+                        width: 73%;
+            
 
                         .hamburger-bloc {
-
+                            &.show {
+                                transform: scale(1);
+                                transition: all ease-in 300ms;
+                                transform-origin: top;
+                            }
+    
+                            &.hide {
+                                transform: scale(1, 0);
+                                transition: all ease-out 300ms;
+                                transform-origin: top;
+                            }
+                            
                             .hamburger-item {
-                                padding-bottom: 1rem;
+                                padding-bottom: 2rem;
                             }
                         }
 
                         .divide-line {
                             border-bottom: 1px solid white;
+                            padding-top: 1rem;
+                        }
+                        
+                        .hamburger-login {
+                            padding-top: 1rem;
+                            padding-bottom: 1rem;
                         }
 
-                        .hamburger-authentification {
-                            padding-top: 1rem;
-
-                            .hamburger-login {
-                                padding-bottom: 1rem;
-                            }
-
-                            .hamburger-signup {
-                                background-color: hsl(180, 66%, 49%);
-                                border-radius: 3rem;
-                                padding: 0.5rem 2rem;
-                                color: white;
-                            }
+                        .hamburger-signup {
+                            background-color: hsl(180, 66%, 49%);
+                            border-radius: 3rem;
+                            padding: 0.5rem 2rem;
+                            color: white;
                         }
                     }
                 }
