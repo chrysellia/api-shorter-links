@@ -1,0 +1,42 @@
+.footer-component {
+    .footer-wrapper {
+        padding: 2rem 6rem;
+        background-color: hsl(260, 8%, 14%);
+
+        .footer-content {
+            display: flex;
+            color: white;
+
+            .footer-logo {
+                padding-right: 2rem;
+                font-weight: 700;
+                font-size: 30px;
+                flex: auto;
+            }
+
+            .footer-menu {
+                display: flex;
+                color: white;
+
+                .menu-bloc {
+                    padding-right: 5rem;
+                    // padding-top: 3rem;
+
+                    .main-item {
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .footer-media {
+                display: flex;
+                color: white;
+
+                .media-item {
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+}
