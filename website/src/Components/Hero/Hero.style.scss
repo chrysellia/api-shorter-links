@@ -60,7 +60,8 @@
         .hero-mobile {
             display: block;
 
-            .hero-image {
+            .hero-image {    
+                padding-left: 30px;     
                 img {
                     width: 100%;
                 }
@@ -73,7 +74,7 @@
                 .hero-content {
                     text-align: center;
                     padding-left: 1rem;
-                    padding-top: 1rem;
+                    padding-top: 2rem;
         
                     .main-content {
                         font-size: 45px;

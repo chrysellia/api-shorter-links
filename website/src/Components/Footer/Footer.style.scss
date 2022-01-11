@@ -18,6 +18,7 @@
                 color: white;
 
                 .menu-bloc {
+                    padding-right: 3rem;
                     .main-item {
                         font-weight: 700;
                         font-size: 15px;
@@ -37,6 +38,8 @@
                 color: white;
 
                 .media-item {
+                    padding-right: 2rem;
+
                     .media-icon {
                         &:hover path {
                             fill: hsl(180, 66%, 49%);

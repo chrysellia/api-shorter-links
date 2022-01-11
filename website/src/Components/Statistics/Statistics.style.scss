@@ -100,7 +100,7 @@
                 }
             }
 
-            .bound-line {
+            .line-two {
                 position: relative;
                 border-bottom: 0.5rem solid #2acfcf;
                 width: 50px;
@@ -180,7 +180,7 @@
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
                     margin-bottom: 2rem;
-                    margin-left: -1.5rem;
+                    margin-left: -0.95rem;
                     position: relative;
                     width: 100%;
     
@@ -215,8 +215,11 @@
     
                 .bound-line {
                     position: relative;
-                    border-left: 6px solid #2acfcf;
-                    height: 20px;
+                    border-left: 0.5rem solid #2acfcf;
+                    width: 20px;
+                    top: -21px;
+                    left: 146px;
+                    transform: rotateZ(90deg);
                 }
     
                 .card-two {
@@ -225,7 +228,7 @@
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
                     margin-bottom: 2rem;
-                    margin-left: -1.5rem;
+                    margin-left: -0.95rem;
                     position: relative;
                     width: 100%;
     
@@ -258,13 +261,13 @@
                     }
                 }
     
-                .bound-line {
+                .line-two {
                     position: relative;
-                    border-bottom: 0.5rem solid #2acfcf;
-                    width: 50px;
-                    top: -29px;
-                    left: 165px;
-                    transform: translateX(90deg) rotate(90deg);
+                    border-left: 0.5rem solid #2acfcf;
+                    width: 20px;
+                    top: 12px;
+                    left: 146px;
+                    transform: rotateZ(90deg);
                 }
     
                 .card-three {
@@ -272,7 +275,7 @@
                     background-color: white;
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
-                    margin-left: -1.5rem;
+                    margin-left: -0.95rem;
                     position: relative;
                     width: 100%;
     

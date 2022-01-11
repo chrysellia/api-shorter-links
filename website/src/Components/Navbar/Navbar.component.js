@@ -3,7 +3,7 @@ import './Navbar.style.scss'
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-    const {menuRef} = React.useRef(false);
+    const menuRef = React.useRef(null);
     const [show, toggleShow] = React.useState(false);
 
     const handleClick = (event) => {
@@ -37,15 +37,18 @@ const Navbar = () => {
                         <div className="navbar-hamburger" onClick={() => toggleShow(true)}>
                             <GiHamburgerMenu/>
                         </div>
-                        <div ref={menuRef} className={`toggle-menu" ${ show ? 'show' : 'hide'}`}>
+
+                        <div ref={menuRef} className={`toggle-menu ${ show ? 'show' : 'hide'}`}>
                             <div className="hamburger-bloc">
-                                <div className="hamburger-item">Features</div>
-                                <div className="hamburger-item">Pricing</div>
-                                <div className="hamburger-item">Resources</div>
+                                    <div className="hamburger-item">Features</div>
+                                    <div className="hamburger-item">Pricing</div>
+                                    <div className="hamburger-item">Resources</div>
+                                <div className="line-wrapper">
+                                    <div className="divide-line"></div>
+                                </div>
+                                    <div className="hamburger-login">Login</div>
+                                    <div className="hamburger-signup">Sign Up</div>
                             </div>
-                            <div className="divide-line"></div>
-                            <div className="hamburger-login">Login</div>
-                            <div className="hamburger-signup">Sign Up</div>
                         </div>
                     </div>
                 </div>

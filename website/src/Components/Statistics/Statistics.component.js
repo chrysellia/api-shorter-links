@@ -41,7 +41,7 @@ const Statistics = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="bound-line"></div>
+                    <div className="line-two"></div>
 
                     <div className="card-three">
                         <div className="card-icon">

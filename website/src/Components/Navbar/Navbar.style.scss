@@ -92,50 +92,69 @@
 
                     .toggle-menu {
                         position: absolute;
-                        top: 85px;
-                        left: 23px;
-                        width: 73%;
+                        top: 62px;
+                        left: 32px;
+                        width: 84%;
 
-                            &.show {
-                                transform: scale(1);
-                                transition: all ease-in 300ms;
-                                transform-origin: top;
-                            }
+                        &.show {
+                            transform: scale(1);
+                            transition: all ease-in 300ms;
+                            transform-origin: top;
+                        }
 
-                            &.hide {
-                                transform: scale(1, 0);
-                                transition: all ease-out 300ms;
-                                transform-origin: top;
-                            }
+                        &.hide {
+                            transform: scale(1, 0);
+                            transition: all ease-out 300ms;
+                            transform-origin: top;
+                        }
 
                         .hamburger-bloc {
-                            background-color: #3b3054;
-                            padding: 2rem 2rem;
-                            text-align: center;
+                            background-color: hsl(257, 27%, 26%);
                             color: white;
-                            font-weight: 600;
+                            padding: 0.5rem 0.5rem;
                             border-radius: 1rem;
-                            
+                            font-weight: bold;
+                            font-size: 20px;
+                                
                             .hamburger-item {
-                                padding-bottom: 1rem;
+                                padding-top: 0.8rem;
+                                padding-bottom: 0.38rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            } 
+                            
+                            .line-wrapper {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .divide-line {
+                                    padding-top: 1rem;
+                                    border-bottom: 2px solid white;
+                                    width: 70%; 
+                                }
                             }
-                        }
-
-                        .divide-line {
-                            border-bottom: 1px solid white;
-                            padding-top: 1rem;
-                        }
-                        
-                        .hamburger-login {
-                            padding-top: 1rem;
-                            padding-bottom: 1rem;
-                        }
-
-                        .hamburger-signup {
-                            background-color: hsl(180, 66%, 49%);
-                            border-radius: 3rem;
-                            padding: 0.5rem 2rem;
-                            color: white;
+                            
+                            .hamburger-login {
+                                padding-top: 0.8rem;
+                                padding-bottom: 0.8rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+    
+                            .hamburger-signup {
+                                border-radius: 2rem;
+                                padding: 1rem 1rem;
+                                text-align: center;
+                                color: white;
+                                background-color: hsl(180, 66%, 49%);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 0.8rem;
+                            }
                         }
                     }
                 }
