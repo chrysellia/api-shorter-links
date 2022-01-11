@@ -8,7 +8,6 @@
             color: white;
 
             .footer-logo {
-                padding-right: 2rem;
                 font-weight: 700;
                 font-size: 30px;
                 flex: auto;
@@ -19,9 +18,6 @@
                 color: white;
 
                 .menu-bloc {
-                    padding-right: 5rem;
-                    // padding-top: 3rem;
-
                     .main-item {
                         font-weight: 700;
                         font-size: 15px;
@@ -41,8 +37,6 @@
                 color: white;
 
                 .media-item {
-                    padding-right: 2rem;
-
                     .media-icon {
                         &:hover path {
                             fill: hsl(180, 66%, 49%);

@@ -180,6 +180,7 @@
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
                     margin-bottom: 2rem;
+                    margin-left: -1.5rem;
                     position: relative;
                     width: 100%;
     
@@ -189,7 +190,7 @@
                         align-items: center;
                         justify-content: center;
                         top: -51px;
-                        left: 152px;
+                        left: 135px;
                         border-radius: 3rem;
                         height: 5rem;
                         width: 5rem;
@@ -214,10 +215,8 @@
     
                 .bound-line {
                     position: relative;
-                    border-bottom: 0.5rem solid #2acfcf;
-                    width: 64px;
-                    top: -29px;
-                    left: 165px;
+                    border-left: 6px solid #2acfcf;
+                    height: 20px;
                 }
     
                 .card-two {
@@ -226,13 +225,14 @@
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
                     margin-bottom: 2rem;
+                    margin-left: -1.5rem;
                     position: relative;
                     width: 100%;
     
                     .card-icon {
                         position: absolute;
                         top: -51px;
-                        left: 152px;
+                        left: 135px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -272,13 +272,14 @@
                     background-color: white;
                     border-radius: 0.8rem;
                     padding: 1rem 1rem;
+                    margin-left: -1.5rem;
                     position: relative;
                     width: 100%;
     
                     .card-icon {
                         position: absolute;
                         top: -51px;
-                        left: 152px;
+                        left: 135px;
                         display: flex;
                         align-items: center;
                         justify-content: center;

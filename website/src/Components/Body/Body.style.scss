@@ -46,6 +46,7 @@
         
         .body-wrapper {
             padding: 1rem 2rem;
+            margin-right: 15px;
             background-color: hsl(257, 27%, 26%);
     
             .body-input {
@@ -54,20 +55,21 @@
     
                 .input-content {
                     border-radius: 0.5rem;
-                    // padding: 0.4rem 0.6rem;
-                    color: hsl(257, 7%, 63%);
+                    padding: 0.4rem 0.6rem;
+                    color: #9e9aa7;
                     font-size: 18px;
                     font-weight: 500;
-                    width: 100%;
+                    margin-left: -15px;
+                    width: 103%;
                 }
     
                 .input-button {
                     padding-top: 0.5rem;
 
                     .button-content {
-                        background-color: hsl(180, 66%, 49%);
+                        background-color: #2acfcf;
                         border-radius: 0.5rem;
-                        // padding: 0.8rem 0.8rem;
+                        margin-left: -14px;
                         width: 100%;
                         color: white;
                         text-align: center;

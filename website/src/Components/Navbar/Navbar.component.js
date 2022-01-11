@@ -37,8 +37,8 @@ const Navbar = () => {
                         <div className="navbar-hamburger" onClick={() => toggleShow(true)}>
                             <GiHamburgerMenu/>
                         </div>
-                        <div className="toggle-menu">
-                            <div ref={menuRef} className={`hamburger-bloc" ${ show ? 'show' : 'hide'}`}>
+                        <div ref={menuRef} className={`toggle-menu" ${ show ? 'show' : 'hide'}`}>
+                            <div className="hamburger-bloc">
                                 <div className="hamburger-item">Features</div>
                                 <div className="hamburger-item">Pricing</div>
                                 <div className="hamburger-item">Resources</div>
